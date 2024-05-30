@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trenirowka-gym-project/static/css/main.5bd16e38.css",
+    "main.js": "/trenirowka-gym-project/static/js/main.f2effd51.js",
+    "index.html": "/trenirowka-gym-project/index.html",
+    "main.5bd16e38.css.map": "/trenirowka-gym-project/static/css/main.5bd16e38.css.map",
+    "main.f2effd51.js.map": "/trenirowka-gym-project/static/js/main.f2effd51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd16e38.css",
+    "static/js/main.f2effd51.js"
+  ]
+}
