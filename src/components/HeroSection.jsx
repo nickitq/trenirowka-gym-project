@@ -23,7 +23,7 @@ function HeroSection() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          SCHEDULE <i class="fa-regular fa-clock"></i>
+          SCHEDULE <i className="fa-regular fa-clock"></i>
         </Button>
       </div>
     </div>

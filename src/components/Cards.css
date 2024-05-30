@@ -3,10 +3,10 @@
   background: black;
 }
 
-h1,
+.products_h1,
 .cards__h3 {
   text-align: center;
-  color: #fff;
+  color: #fff !important;
 }
 
 h3 {

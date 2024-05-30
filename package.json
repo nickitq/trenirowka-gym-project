@@ -1,6 +1,5 @@
 {
-  "homepage": "http://nickitq.github.io/trenirowka-gym-project",
-  "name": "react-trvl",
+  "name": "trenirowka-gym-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
