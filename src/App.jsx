@@ -5,7 +5,7 @@ import "./App.css";
 
 import Home from "./components/pages/Home";
 import Products from "./components/pages/Products";
-import { Signup } from "./components/pages/Signup";
+import { Signup } from "./components/pages/SignUp/Signup";
 import { Prices } from "./components/pages/Prices/Prices";
 import { Info } from "./components/pages/Info/Info";
 

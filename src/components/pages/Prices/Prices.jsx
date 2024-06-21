@@ -10,22 +10,22 @@ export const Prices = () => {
     <>
       <section class="pricing">
         <div class="container-sm">
-          <h3 class="pricing-heading text-xl text-center">Prices</h3>
+          <h3 class="pricing-heading-header text-xl text-center">Prices</h3>
           <p class="pricing-subheading text-md text-center">
-            Sign-up for one free training session
-            <p>
+            <a className="here--btn" href="/sign-up">
+              Sign Up
+            </a>{" "}
+            for one free training session
+            {/* <p>
               You can find our schedule {""}
-              <a className="here--btn" href="/services">
+              <a className="here--btn" href="/info">
                 here
               </a>
-              {/* <a href="/sign-up" class="here--btn">
-                here
-              </a> */}
-            </p>
+            </p> */}
           </p>
           <div class="pricing-grid">
             {/* <!-- Pricing Card 1 --> */}
-            <div class="card bg-light">
+            <div class="card bg-black">
               <div class="pricing-card-header">
                 <h4 class="pricing-heading text-xl">Simple</h4>
                 <p class="pricing-card-subheading">
@@ -39,7 +39,7 @@ export const Prices = () => {
                 <ul>
                   <li>
                     <i class="fas fa-check"></i> Use of cardio equipment
-                    (treadmills, ellipticals, stationary bikes).
+                    (treadmills, stationary bikes, ellipticals).
                   </li>
                   <li>
                     <i class="fas fa-check"></i> Use of strength training
@@ -54,14 +54,17 @@ export const Prices = () => {
                     events and challenges.
                   </li>
                 </ul>
-                <a href="/sign-up" class="btn btn--white btn--large btn-block">
+                <a
+                  href="/sign-up"
+                  class="btn btn--outline btn--large btn-block"
+                >
                   Get started
                 </a>
               </div>
             </div>
 
             {/* <!-- Pricing Card 2 --> */}
-            <div class="card bg-black">
+            <div class="card bg-premium">
               <div class="pricing-card-header">
                 <h4 class="pricing-heading text-xl">Premium</h4>
                 <p class="pricing-card-subheading">
@@ -93,7 +96,7 @@ export const Prices = () => {
                 </ul>
                 <a
                   href="/sign-up"
-                  class="btn btn--outline btn--large btn-block"
+                  class="btn btn--white premium btn--large btn-block"
                 >
                   Get started
                 </a>

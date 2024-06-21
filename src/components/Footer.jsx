@@ -8,6 +8,16 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
+        <p className="footer-subscription-heading">Working Hours </p>
+        <p className="footer-subscription-text">
+          Monday-Friday 5:00 AM - 1:00 Am
+        </p>
+        <p className="footer-subscription-text">
+          Saturday-Sunday 7:00 AM - 10:00 PM
+        </p>
+      </section>
+
+      <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Join to our Gym Newsletter to be aware of all the news
         </p>
@@ -28,13 +38,12 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className="footer-links">
+      {/* <div className="footer-links">
         <div className="footer-links-wrapper">
           <div className="footer-links-items">
             <h2>About us</h2>
-            <Link to="/sign-up">Info</Link>
-            <Link to="/">Schedule</Link>
-            <Link to="/">Testimonials</Link>
+            <Link to="/info">Info</Link>
+            <Link to="/testimonials">Testimonials</Link>
             <Link to="/">Careers</Link>
             <Link to="/">Investors</Link>
           </div>
@@ -65,7 +74,7 @@ function Footer() {
             <Link to="/">Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
